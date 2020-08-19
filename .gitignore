@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+__pycache__
+*.iml
+client/node_modules
+.DS_Store
+*.lock
+*.txt
+client/package-lock.json
