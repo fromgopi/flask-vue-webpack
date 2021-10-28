@@ -6,13 +6,24 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-mongoengine = "*"
-flask-mongoengine = "==0.9.5"
 python-dotenv = "==0.10.3"
 pylint = "==2.4.4"
 Flask = "==1.1.1"
 Flask-RESTful = "==0.3.7"
 Flask-Bcrypt = "==0.7.1"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+flask-jwt-extended = "*"
+mysqlclient = "*"
+marshmallow-sqlalchemy = "*"
+flask-cors = "*"
+flask-script = "*"
+pip = "*"
+install = "*"
+python-json-logger = "*"
+ipython = "*"
+flask-argon2 = "*"
+argon2-cffi = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
