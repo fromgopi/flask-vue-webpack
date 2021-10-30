@@ -24,6 +24,7 @@ python-json-logger = "*"
 ipython = "*"
 flask-argon2 = "*"
 argon2-cffi = "*"
+alembic = "*"
 
 [requires]
 python_version = "3.9"
