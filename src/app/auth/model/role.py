@@ -1,7 +1,7 @@
 import datetime
 from src.server import DB
 
-class Role(DB):
+class Role(DB.Model):
     """Role table definition and supporting database operations"""
 
     __tablename__ = 'roles'

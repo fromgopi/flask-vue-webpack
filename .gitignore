@@ -134,3 +134,4 @@ client/node_modules
 *.lock
 *.txt
 client/package-lock.json
+alembic/versions/*
