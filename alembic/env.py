@@ -7,6 +7,7 @@ from alembic import context
 from sqlalchemy.engine import create_engine
 from src.server import DB
 from src.app.user.models import user
+from src.app.auth.models import role, permission
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

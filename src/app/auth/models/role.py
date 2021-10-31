@@ -11,4 +11,6 @@ class Role(DB.Model):
     status = DB.Column(DB.Integer, nullable=False, default=0)
     created_at = DB.Column(DB.DateTime, default=datetime.datetime.utcnow())
     updated_at = DB.Column(DB.DateTime, default=datetime.datetime.utcnow())
-    
+    users = DB.relationship("User", backref='user')
+    permissions = DB.relationship(
+        "Permission", backref='permission', uselist=True, lazy='joined')
