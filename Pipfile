@@ -25,6 +25,8 @@ ipython = "*"
 flask-argon2 = "*"
 argon2-cffi = "*"
 alembic = "*"
+numpy = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.9"
